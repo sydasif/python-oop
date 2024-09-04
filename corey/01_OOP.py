@@ -14,7 +14,7 @@ class Employee:
 
 
 # Create instances (objects) of the Employee class with different attributes
-emp_1 = Employee("John", "Doe", 50000)
+emp_1 = Employee("John", "Doe", 5000)
 emp_2 = Employee("Test", "User", 6000)
 
 # Print the email address for each employee instance

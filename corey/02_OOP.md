@@ -13,7 +13,7 @@ class Employee:
         self.email = self.name + "." + last + "@abc.com"
 
 
-emp_1 = Employee("John", "Doe", 50000)
+emp_1 = Employee("John", "Doe", 5000)
 emp_2 = Employee("Test", "User", 6000)
 ```
 
@@ -45,7 +45,7 @@ class Employee:
         self.email = self.name + "." + last + "@abc.com"
 
 
-emp_1 = Employee("John", "Doe", 50000)
+emp_1 = Employee("John", "Doe", 5000)
 emp_2 = Employee("Test", "User", 6000)
 
 print("{} {}".format(emp_1.name, emp_1.last))  # Output: John Doe
@@ -67,7 +67,7 @@ class Employee:
         return "{} {}".format(self.name, self.last)
 
 
-emp_1 = Employee("John", "Doe", 50000)
+emp_1 = Employee("John", "Doe", 5000)
 emp_2 = Employee("Test", "User", 6000)
 
 print(emp_1.fullname())
@@ -101,7 +101,7 @@ class Employee:
         return "{} {}".format(self.name, self.last)
 
 
-emp_1 = Employee("John", "Doe", 50000)
+emp_1 = Employee("John", "Doe", 5000)
 emp_2 = Employee("Test", "User", 6000)
 
 print(emp_1.fullname())
@@ -139,7 +139,7 @@ class Employee:
         return "{} {}".format(self.name, self.last)
 
 
-emp_1 = Employee("John", "Doe", 50000)
+emp_1 = Employee("John", "Doe", 5000)
 emp_2 = Employee("Test", "User", 6000)
 
 print(Employee.fullname(emp_1))
